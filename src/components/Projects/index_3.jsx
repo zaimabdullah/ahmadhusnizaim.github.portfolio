@@ -8,12 +8,11 @@ import {
   CardContainer,
   ToggleGroup,
   ToggleButton,
-  Divider,
 } from './ProjectsStyle';
 import ProjectCard from '../Cards/ProjectCard';
-import { projects } from '../../data/constants';
+// import { projects } from '../../data/constants';
 
-const Projects = ({ openModal, setOpenModal }) => {
+const Projects = () => {
   const [toggle, setToggle] = useState('all');
 
   return (
@@ -33,48 +32,19 @@ const Projects = ({ openModal, setOpenModal }) => {
               ALL
             </ToggleButton>
           )}
-          <Divider />
-          {toggle === 'web app' ? (
-            <ToggleButton active onClick={() => setToggle('web app')}>
-              WEB APP
-            </ToggleButton>
-          ) : (
-            <ToggleButton onClick={() => setToggle('web app')}>
-              WEB APP
-            </ToggleButton>
-          )}
-          <Divider />
-          {toggle === 'android app' ? (
-            <ToggleButton active onClick={() => setToggle('android app')}>
-              ANDROID APP
-            </ToggleButton>
-          ) : (
-            <ToggleButton onClick={() => setToggle('android app')}>
-              ANDROID APP
-            </ToggleButton>
-          )}
-          <Divider />
-          {toggle === 'machine learning' ? (
-            <ToggleButton active onClick={() => setToggle('machine learning')}>
-              MACHINE LEARNING
-            </ToggleButton>
-          ) : (
-            <ToggleButton onClick={() => setToggle('machine learning')}>
-              MACHINE LEARNING
-            </ToggleButton>
-          )}
         </ToggleGroup>
         <CardContainer>
-          {toggle === 'all' &&
+          <ProjectCard
+          // key={project.id}
+          // project={project}
+          // openModal={openModal}
+          // setOpenModal={setOpenModal}
+          />
+          {/* {toggle === 'all' &&
             projects.map((project) => (
-              <ProjectCard
-                key={project.id}
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
-          {projects
+              
+            ))} */}
+          {/* {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
@@ -83,7 +53,7 @@ const Projects = ({ openModal, setOpenModal }) => {
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
-            ))}
+            ))} */}
         </CardContainer>
       </Wrapper>
     </Container>

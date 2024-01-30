@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Card = styled.div`
@@ -40,14 +40,14 @@ const Tags = styled.div`
   align-items: center;
 `;
 
-const Tag = styled.div`
-  font-size: 12px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.primary};
-  background-color: ${({ theme }) => theme.primary + 15};
-  padding: 2px 8px;
-  border-radius: 10px;
-`;
+// const Tag = styled.div`
+//   font-size: 12px;
+//   font-weight: 400;
+//   color: ${({ theme }) => theme.primary};
+//   background-color: ${({ theme }) => theme.primary + 15};
+//   padding: 2px 8px;
+//   border-radius: 10px;
+// `;
 
 const Details = styled.div`
   width: 100%;
@@ -98,56 +98,37 @@ const Members = styled.div`
   padding-left: 10px;
 `;
 
-const Avatar = styled.img`
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  margin-left: -10px;
-  background-color: ${({ theme }) => theme.white};
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border: 3px solid ${({ theme }) => theme.card};
-`;
+// const Avatar = styled.img`
+//   width: 38px;
+//   height: 38px;
+//   border-radius: 50%;
+//   margin-left: -10px;
+//   background-color: ${({ theme }) => theme.white};
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+//   border: 3px solid ${({ theme }) => theme.card};
+// `;
 
-const ProjectCard = ({ project, setOpenModal }) => {
+const ProjectCard = () => {
   return (
-    <Card onClick={() => setOpenModal({ state: true, project: project })}>
-      <Image src={project.image} />
+    <Card>
+      <Image src='/404.png' />
       <Tags>
-        {project.tags?.map((tag) => (
+        {/* {project.tags?.map((tag) => (
           <Tag key={tag}>{tag}</Tag>
-        ))}
+        ))} */}
       </Tags>
       <Details>
-        <Title>{project.title}</Title>
-        <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
+        <Title>In Progress</Title>
+        <Date>29-01-2024 ~ Now</Date>
+        <Description></Description>
       </Details>
       <Members>
-        {project.member?.map((member) => (
+        {/* {project.member?.map((member) => (
           <Avatar key={member.name} src={member.img} />
-        ))}
+        ))} */}
       </Members>
     </Card>
   );
-};
-
-ProjectCard.propTypes = {
-  project: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    date: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    tags: PropTypes.arrayOf(PropTypes.string).isRequired,
-    category: PropTypes.string,
-    member: PropTypes.arrayOf(
-      PropTypes.shape({
-        name: PropTypes.string.isRequired,
-        img: PropTypes.string.isRequired,
-      })
-    ),
-  }),
-  setOpenModal: PropTypes.func.isRequired,
 };
 
 export default ProjectCard;
