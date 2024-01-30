@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Document = styled.img`
   display: none;
   height: 70px;
-  width: fit-content;
+  width: 6rem;
   background-color: #000;
   border-radius: 10px;
 
