@@ -375,7 +375,7 @@ export const projects = [
     webapp: 'https://share-my-place-bb9f9.web.app/',
   },
   {
-    id: 3,
+    id: 2,
     title: 'Find a Coach',
     date: 'Mar 2023 - Mar 2023',
     description:
@@ -388,7 +388,7 @@ export const projects = [
     webapp: 'https://vue-find-coach-app-1d911.web.app/',
   },
   {
-    id: 4,
+    id: 3,
     title: 'Book Review',
     date: 'Jan 2024',
     description:
@@ -407,19 +407,19 @@ export const projects = [
     github: 'https://github.com/zaimabdullah/book-review',
     webapp: 'http://book-review.infinityfreeapp.com/',
   },
-  //   {
-  //     id: 5,
-  //     title: 'Todo Web App',
-  //     date: 'Jun 2021',
-  //     description:
-  //       ' A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.',
-  //     image:
-  //       'https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633',
-  //     tags: ['React Js', 'Local Storage', 'AWS Auth', 'Node JS'],
-  //     category: 'web app',
-  //     github: 'https://github.com/rishavchanda/Todo-Web-App',
-  //     webapp: 'https://rishav-react-todo.netlify.app/',
-  //   },
+  {
+    id: 4,
+    title: 'Portfolio',
+    date: 'Jan 2024',
+    description:
+      'My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.',
+    image:
+      'https://github.com/zaimabdullah/ahmadhusnizaim.github.portfolio/assets/36534973/5e514b2f-7e54-4e53-8bcd-f46fa98dcbb4',
+    tags: ['React Js', 'HTML5', 'CSS3', 'JavaScript', 'Netlify'],
+    category: 'web app',
+    github: 'https://github.com/zaimabdullah/ahmadhusnizaim.github.portfolio',
+    webapp: 'https://ahmadhusnizaim.netlify.app/',
+  },
   //   {
   //     id: 6,
   //     title: 'Breaking Bad',
