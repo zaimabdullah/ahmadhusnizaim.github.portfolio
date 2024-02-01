@@ -152,6 +152,10 @@ export const skills = [
           'https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png',
       },
       {
+        name: 'InfinityFree',
+        image: 'https://asset.brandfetch.io/idpoBYN9lk/idmaM7UbEn.png',
+      },
+      {
         name: 'Docker',
         image:
           'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg',
@@ -383,19 +387,26 @@ export const projects = [
     github: 'https://github.com/zaimabdullah/Find-a-Coach',
     webapp: 'https://vue-find-coach-app-1d911.web.app/',
   },
-  //   {
-  //     id: 4,
-  //     title: 'Whatsapp Clone',
-  //     date: 'Jul 2021',
-  //     description:
-  //       'A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.',
-  //     image:
-  //       'https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89',
-  //     tags: ['React Js', 'Firebase', 'Firestore', 'Node JS'],
-  //     category: 'web app',
-  //     github: 'https://github.com/rishavchanda/Whatsapp-Clone-React-Js',
-  //     webapp: 'https://whatsapp-clone-rishav.web.app',
-  //   },
+  {
+    id: 4,
+    title: 'Book Review',
+    date: 'Jan 2024',
+    description:
+      'The Book Review website is a platform designed to facilitate the exploration and review of various books. It offers a user-friendly interface to browse through a curated collection of books, read reviews, and add new ones. It was one of Laravel course project.',
+    image:
+      'https://github.com/zaimabdullah/book-review/assets/36534973/cbc0fc7e-56f6-4dd0-8b71-c226f56eef80',
+    tags: [
+      'Laravel10',
+      'PHP',
+      'TailwindCSS',
+      'Docker',
+      'MySQL',
+      'InfinityFree',
+    ],
+    category: 'web app',
+    github: 'https://github.com/zaimabdullah/book-review',
+    webapp: 'http://book-review.infinityfreeapp.com/',
+  },
   //   {
   //     id: 5,
   //     title: 'Todo Web App',
