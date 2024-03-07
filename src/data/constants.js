@@ -429,7 +429,7 @@ export const projects = [
     title: 'Laravel Blog',
     date: 'March 2024',
     description:
-      'This is a Laravel-based blog website with various features for both admins and users. It incorporates functionalities such as user authentication, email validation, post creation, category management, comment system, likes/dislikes, search, and more.\n\nThis project do not have Live-App',
+      'This is a Laravel-based blog website with various features for both admins and users. It incorporates functionalities such as user authentication, email validation, post creation, category management, comment system, likes/dislikes, search, and more.<br><br>This project does not have a live app. Some details are available inside GitHub - "View Code"',
     image:
       'https://github.com/zaimabdullah/laravel-10-blog/assets/36534973/dfc4321e-9a99-4bcb-8112-71edbe703f22',
     tags: [
