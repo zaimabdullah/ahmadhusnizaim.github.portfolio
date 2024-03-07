@@ -420,6 +420,26 @@ export const projects = [
     github: 'https://github.com/zaimabdullah/ahmadhusnizaim.github.portfolio',
     webapp: 'https://ahmadhusnizaim.netlify.app/',
   },
+  {
+    id: 5,
+    title: 'Laravel Blog',
+    date: 'March 2024',
+    description:
+      'This is a Laravel-based blog website with various features for both admins and users. It incorporates functionalities such as user authentication, email validation, post creation, category management, comment system, likes/dislikes, search, and more.',
+    image:
+      'https://github.com/zaimabdullah/laravel-10-blog/assets/36534973/dfc4321e-9a99-4bcb-8112-71edbe703f22',
+    tags: [
+      'Laravel10',
+      'Filament3',
+      'TailwindCss',
+      'Livewire3',
+      'Spatie',
+      'MySQL',
+    ],
+    category: 'web app',
+    github: 'https://github.com/zaimabdullah/laravel-10-blog',
+    webapp: '#',
+  },
   //   {
   //     id: 6,
   //     title: 'Breaking Bad',
