@@ -138,6 +138,10 @@ export const skills = [
     title: 'Others',
     skills: [
       {
+        name: 'Filament',
+        image: 'https://laravel-livewire.com/img/twitter.png',
+      },
+      {
         name: 'Git',
         image: 'https://avatars.githubusercontent.com/u/18133?s=280&v=4',
       },
