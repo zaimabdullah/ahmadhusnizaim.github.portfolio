@@ -31,11 +31,11 @@ export const skills = [
         image:
           'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/120px-Vue.js_Logo_2.svg.png',
       },
-      //   {
-      //     name: 'Next Js',
-      //     image:
-      //       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=',
-      //   },
+      {
+        name: 'Next Js',
+        image:
+          'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=',
+      },
       {
         name: 'HTML',
         image: 'https://www.w3.org/html/logo/badge/html5-badge-h-solo.png',
@@ -442,6 +442,46 @@ export const projects = [
     ],
     category: 'web app',
     github: 'https://github.com/zaimabdullah/laravel-10-blog',
+    webapp: '#',
+  },
+  {
+    id: 6,
+    title: 'React Events',
+    date: 'March 2024',
+    description:
+      'The project is a React-based Events web application, leveraging the power of Tanstack Query(React Query) for efficient data fetching, and caching. It includes functionalities like data fetching, caching, mutations, form submissions, error handling, and integration with React Router for smooth navigation. This project does not have a live app. Some details are available inside GitHub - "View Code"',
+    image:
+      'https://github.com/zaimabdullah/React-Events-Tanstack/assets/36534973/013fc777-cf9c-4590-ac69-7a11d4ec31fb',
+    tags: [
+      'React',
+      'TanstackQuery(ReactQuery)',
+      'React Router',
+      'React Hooks',
+      'CSS Modules',
+    ],
+    category: 'web app',
+    github: 'https://github.com/zaimabdullah/React-Events-Tanstack',
+    webapp: '#',
+  },
+  {
+    id: 7,
+    title: 'NextLevel Food',
+    date: 'March 2024',
+    description:
+      'The project is a NextJS-based food web application, a functional and user-friendly platform for sharing recipes and connecting with other food enthusiasts on NextLevel Food. A project that utilized the NextJS framework which is the React framework for the web. This project does not have a live app. Some details are available inside GitHub - "View Code"',
+    image:
+      'https://github.com/zaimabdullah/NextJS-foodies-meals/assets/36534973/a8f1d5ca-87d5-4fb2-88e4-b3a38fe0317c',
+    tags: [
+      'NextJS',
+      'ReactJS',
+      'SQLite',
+      'React Hooks',
+      'CSS Modules',
+      'Form Handling',
+      'Metadata Generation',
+    ],
+    category: 'web app',
+    github: 'https://github.com/zaimabdullah/NextJS-foodies-meals',
     webapp: '#',
   },
   //   {
