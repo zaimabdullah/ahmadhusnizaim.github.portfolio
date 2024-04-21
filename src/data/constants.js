@@ -484,6 +484,27 @@ export const projects = [
     github: 'https://github.com/zaimabdullah/NextJS-foodies-meals',
     webapp: '#',
   },
+  {
+    id: 8,
+    title: 'HusniCommerce',
+    date: 'March 2024',
+    description:
+      'The project involves setting up a WordPress-based e-commerce website called "Husni Commerce". The website utilizes the WordPress platform along with various plugins and themes to create an online store. Key tasks include configuring settings, installing themes and plugins, setting up products (simple and variable), designing the homepage and banners, creating blog posts, and managing orders.',
+    image:
+      'https://github.com/zaimabdullah/HusniCommerce/assets/36534973/3dd7dbd9-dac6-4594-a5f0-e62c8ff8967c',
+    tags: [
+      'NextJS',
+      'ReactJS',
+      'SQLite',
+      'React Hooks',
+      'CSS Modules',
+      'Form Handling',
+      'Metadata Generation',
+    ],
+    category: 'web app',
+    github: 'https://github.com/zaimabdullah/HusniCommerce',
+    webapp: '#',
+  },
   //   {
   //     id: 6,
   //     title: 'Breaking Bad',
