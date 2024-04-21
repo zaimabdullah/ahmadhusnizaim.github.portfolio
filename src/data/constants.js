@@ -138,6 +138,11 @@ export const skills = [
     title: 'Others',
     skills: [
       {
+        name: 'WordPress',
+        image:
+          'https://w7.pngwing.com/pngs/510/329/png-transparent-wordpress-com-blog-computer-icons-wordpress-emblem-trademark-logo-thumbnail.png',
+      },
+      {
         name: 'Livewire',
         image: 'https://laravel-livewire.com/img/twitter.png',
       },
@@ -495,7 +500,7 @@ export const projects = [
     tags: ['WordPress', 'WooCommerce', 'Elementor'],
     category: 'web app',
     github: 'https://github.com/zaimabdullah/HusniCommerce',
-    webapp: '#',
+    webapp: 'http://husnicommerce.infinityfreeapp.com/',
   },
   //   {
   //     id: 6,
