@@ -442,7 +442,7 @@ export const projects = [
     ],
     category: 'web app',
     github: 'https://github.com/zaimabdullah/laravel-10-blog',
-    webapp: '#',
+    webapp: 'https://github.com/zaimabdullah/laravel-10-blog',
   },
   {
     id: 6,
@@ -461,7 +461,7 @@ export const projects = [
     ],
     category: 'web app',
     github: 'https://github.com/zaimabdullah/React-Events-Tanstack',
-    webapp: '#',
+    webapp: 'https://github.com/zaimabdullah/React-Events-Tanstack',
   },
   {
     id: 7,
@@ -482,7 +482,7 @@ export const projects = [
     ],
     category: 'web app',
     github: 'https://github.com/zaimabdullah/NextJS-foodies-meals',
-    webapp: '#',
+    webapp: 'https://github.com/zaimabdullah/NextJS-foodies-meals',
   },
   {
     id: 8,
@@ -502,7 +502,7 @@ export const projects = [
     title: 'Notes App',
     date: 'Sept 2024',
     description:
-      'The project involves developing an android Flutter-based Notes App called "Notes App" that allows users to create, edit, and delete notes. It utilizes the Isar Database for offline storage and the Provider package for state management. Key tasks include setting up the database, implementing CRUD operations, designing the UI with Material 3, adding theme customization for light and dark modes, and creating a navigation drawer for accessing settings and notes.',
+      'The project involves developing an android Flutter-based Notes App called "Notes App" that allows users to create, edit, and delete notes. It utilizes the Isar Database for offline storage and the Provider package for state management. Key tasks include setting up the database, implementing CRUD operations, designing the UI with Material 3, adding theme customization for light and dark modes, and creating a navigation drawer for accessing settings and notes. This project does not have a live app. Some details are available inside GitHub - "View Code"',
     image:
       'https://github.com/user-attachments/assets/83ef546c-fa37-4004-8980-2691d8daf095',
     tags: [
@@ -514,7 +514,7 @@ export const projects = [
     ],
     category: 'android app',
     github: 'https://github.com/zaimabdullah/simple_notes_app',
-    webapp: '#',
+    webapp: 'https://github.com/zaimabdullah/simple_notes_app',
   },
   //   {
   //     id: 6,
