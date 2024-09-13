@@ -497,6 +497,25 @@ export const projects = [
     github: 'https://github.com/zaimabdullah/HusniCommerce',
     webapp: 'http://husnicommerce.infinityfreeapp.com/',
   },
+  {
+    id: 9,
+    title: 'Notes App',
+    date: 'Sept 2024',
+    description:
+      'The project involves developing an android Flutter-based Notes App called "Notes App" that allows users to create, edit, and delete notes. It utilizes the Isar Database for offline storage and the Provider package for state management. Key tasks include setting up the database, implementing CRUD operations, designing the UI with Material 3, adding theme customization for light and dark modes, and creating a navigation drawer for accessing settings and notes.',
+    image:
+      'https://github.com/user-attachments/assets/83ef546c-fa37-4004-8980-2691d8daf095',
+    tags: [
+      'Flutter',
+      'Isar Database',
+      'Provider',
+      'Material 3',
+      'Google Fonts',
+    ],
+    category: 'android app',
+    github: 'https://github.com/zaimabdullah/simple_notes_app',
+    webapp: '#',
+  },
   //   {
   //     id: 6,
   //     title: 'Breaking Bad',
@@ -509,19 +528,6 @@ export const projects = [
   //     category: 'web app',
   //     github: 'https://github.com/rishavchanda/Breaking-Bad',
   //     webapp: 'https://breaking-bad-webapp.netlify.app',
-  //   },
-  //   {
-  //     id: 7,
-  //     title: 'Quiz App',
-  //     date: 'Dec 2020 - Jan 2021',
-  //     description:
-  //       'A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.',
-  //     image:
-  //       'https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif',
-  //     tags: ['Java', 'Android Studio', 'Firebase', 'Google Auth'],
-  //     category: 'android app',
-  //     github: 'https://github.com/rishavchanda/Quiz-Earn',
-  //     webapp: 'https://github.com/rishavchanda/Quiz-Earn',
   //   },
 ];
 
