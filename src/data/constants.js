@@ -516,6 +516,26 @@ export const projects = [
     github: 'https://github.com/zaimabdullah/simple_notes_app',
     webapp: 'https://github.com/zaimabdullah/simple_notes_app',
   },
+  {
+    id: 10,
+    title: 'Laravel Social Media',
+    date: 'Sept 2024',
+    description:
+      'This is a Laravel-based social platform designed for managing user interactions within profile and group pages. It features post management, optimized database queries, and dark mode for enhanced user experience. The platform integrates AI capabilities for generating post content from prompts, although this functionality is currently inactive due to unpaid OpenAI credits. It is built with Inertia.js and Vue.js for front-end development, providing a modern, reactive user interface, and has been thoroughly tested in a local environment with MySQL as the database and Laravel Telescope for query monitoring. This project does not have a live app. Some details are available inside GitHub - "View Code"',
+    image:
+      'https://github.com/user-attachments/assets/d9b36fc4-816f-4f5a-858b-7e25765d46e6',
+    tags: [
+      'Laravel11',
+      'InertiaJS',
+      'VueJS',
+      'TailwindCss',
+      'MySQL',
+      'OpenAI API',
+    ],
+    category: 'web app',
+    github: 'https://github.com/zaimabdullah/laravel-social-media-website',
+    webapp: 'https://github.com/zaimabdullah/laravel-social-media-website',
+  },
   //   {
   //     id: 6,
   //     title: 'Breaking Bad',
