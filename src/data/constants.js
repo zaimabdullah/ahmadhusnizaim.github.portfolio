@@ -262,7 +262,7 @@ export const education = [
     school: 'Udemy',
     date: 'Jan 2017 - Present',
     grade: '-',
-    desc: 'View All Related Certifications\nFlutter & Dart: The Complete Guide by Academind Maximilian Schwarzmüller (42 hour course) = https://www.udemy.com/certificate/UC-84243636-52d7-4c95-aa9b-468ef47fd903/ \n JavaScript: The Complete Guide 2023 by Academind Maximilian Schwarzmüller (52 hour couse) = https://www.udemy.com/certificate/UC-3a9e3e0d-1562-4e9a-add3-0b7958ecde60/ \n Vue: The Complete Guide by Maximilian Schwarzmüller (32 hour course) = https://www.udemy.com/certificate/UC-b029547f-b649-49bf-9f3e-6140d80e46f9/ \n Master Laravel for Beginners & Intermediate 2024 by Piotr Jura (54 hour course) = https://www.udemy.com/certificate/UC-3c9c8d86-2cb4-42f6-a72a-43b1f436afa2/',
+    desc: 'View All Related Certifications \n\n Flutter & Dart: The Complete Guide by Academind Maximilian Schwarzmüller (42 hour course) = https://www.udemy.com/certificate/UC-84243636-52d7-4c95-aa9b-468ef47fd903/ \n JavaScript: The Complete Guide 2023 by Academind Maximilian Schwarzmüller (52 hour couse) = https://www.udemy.com/certificate/UC-3a9e3e0d-1562-4e9a-add3-0b7958ecde60/ \n Vue: The Complete Guide by Maximilian Schwarzmüller (32 hour course) = https://www.udemy.com/certificate/UC-b029547f-b649-49bf-9f3e-6140d80e46f9/ \n Master Laravel for Beginners & Intermediate 2024 by Piotr Jura (54 hour course) = https://www.udemy.com/certificate/UC-3c9c8d86-2cb4-42f6-a72a-43b1f436afa2/',
     degree: 'Flutter & Dart, JavaScript, Vue, Laravel',
   },
   {
