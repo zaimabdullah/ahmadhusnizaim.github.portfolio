@@ -263,15 +263,7 @@ export const education = [
     date: 'Jan 2017 - Present',
     grade: '-',
     desc: `
-    - Flutter & Dart: The Complete Guide by Academind Maximilian Schwarzmüller (42-hour course)
-      [Certificate link](https://www.udemy.com/certificate/UC-84243636-52d7-4c95-aa9b-468ef47fd903/)
-    - JavaScript: The Complete Guide 2023 by Academind Maximilian Schwarzmüller (52-hour course)
-      [Certificate link](https://www.udemy.com/certificate/UC-3a9e3e0d-1562-4e9a-add3-0b7958ecde60/)
-    - Vue: The Complete Guide by Maximilian Schwarzmüller (32-hour course)
-      [Certificate link](https://www.udemy.com/certificate/UC-b029547f-b649-49bf-9f3e-6140d80e46f9/)
-    - Master Laravel for Beginners & Intermediate 2024 by Piotr Jura (54-hour course)
-      [Certificate link](https://www.udemy.com/certificate/UC-3c9c8d86-2cb4-42f6-a72a-43b1f436afa2/)
-    `,
+    Some of courses that I have done are Flutter & Dart: The Complete Guide by Academind Maximilian Schwarzmüller (42-hour course), JavaScript: The Complete Guide 2023 by Academind Maximilian Schwarzmüller (52-hour course), Vue: The Complete Guide by Maximilian Schwarzmüller (32-hour course), Master Laravel for Beginners & Intermediate 2024 by Piotr Jura (54-hour course)`,
     degree: 'Flutter & Dart, JavaScript, Vue, Laravel',
   },
   {
