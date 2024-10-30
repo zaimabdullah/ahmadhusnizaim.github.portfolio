@@ -392,7 +392,7 @@ export const projects = [
     description:
       'The project involves developing an android Flutter-based Notes App called "Notes App" that allows users to create, edit, and delete notes. It utilizes the Isar Database for offline storage and the Provider package for state management. Key tasks include setting up the database, implementing CRUD operations, designing the UI with Material 3, adding theme customization for light and dark modes, and creating a navigation drawer for accessing settings and notes. This project does not have a live app. Some details are available inside GitHub - "View Code"',
     image:
-      'https://github.com/user-attachments/assets/83ef546c-fa37-4004-8980-2691d8daf095',
+      'https://github.com/user-attachments/assets/d257a07f-085c-48cf-98e0-d64f3977e027',
     tags: [
       'Flutter',
       'Isar Database',
