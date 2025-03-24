@@ -183,25 +183,25 @@ export const skills = [
 ];
 
 export const experiences = [
-  // {
-  //   id: 0,
-  //   img: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAt1BMVEX///8AAAC+MvWCgoLf399ra2vu7u53d3e8J/XVjfjPefe9LfW7IfW6FfS5DfT58P78+P/y3v3anPnoxPvjtvvt0PzPz8+wsLAeHh65ubnW1tbAPvX26f7px/vIXvbgrfrETvbRf/jMbfefn5/k5OSVlZUrKyt9fX1BQUH29vbNcPfXkvnlu/vFUfbHW/bZmfnLaPfeqPrTh/jhsPpZWVkQEBClpaU4ODjFxcWzs7MuLi5NTU09PT3m1UXYAAAEiUlEQVR4nO2daVviMBRGoYgWaQuKsrkrLlXHcRvc5v//rmlxFCxJcy+0TUne89nw3JynSd4kBSsVAKzhwNnb1V3DirB/6DebwXVLdx2rwE3QdCLcYFt3JaXn1vWc/3jOge5qSs3WL9+Z0vQP93VXVFraJ58jcEZX0NBdVEk58l1nDte71V1XCdnd8+ZVxfjHW7prKxmt0+QInB2LJ23d9ZWJ7UAwAmfGon+ku8LScOBIRuAUD5F+wv6dLx2Bs2PxFJG+0pBPVkldtkf6Wy91skqMxWZHd70a2Tr21Ypm8e9sjfTzgV2NrZH+QRTY1bjeju7KC0ca2NXYFunTAruaZrBpUaRXBHY1rv+guw8F0VEHdjV2RPr4hH15V/FYvDc+0pMDO0XXb929yZUdYmCn/pnJkb4RkBy4/tM28QEMTnT3KTcalAfmMxi07km63E3dfcoNiqzvyEmKrVbL+rGZIWyILJaV3Ca3N1Vj0V5ZggMY1SGOrbIkOSA9bdgpK+XQ+DFlLNooK33vsn8nHYsWylLuijtNSYywThbpvEUS6S2TRT3JE58X2iWLcUYsivQ2yWLePsxHentk8e+15m7PbJG12EuQiUhviSzPWfDg7seNvxWylnpx+2Y6Fi2QtexXAqaXHubLyuAa6+v9N9NlZfTO4+dFrdmysnubtnUdTV1Gy8r0pY4o0hss69HP+BsAR8F1th9YIjqZv/zSfsr6EwEAAAAAAAAAAAAAAAAAYDi9DQH1kNZ4VBe1Psu3Yo1cVkWs0xqvCRvX861YIzXIogNZDCCLAWQxgCwGkMUAshhAFgPIYgBZDCCLAWQxgCwGkMUAshhAFgPIYgBZDCCLAWQxgCwGkMUAshhAFgPIYgBZDCCLAWQxgCwGkMUAshhAFgPIYgBZDCCLAWQxgCwGkMUAshhAFgPIYgBZDCCLAWQxgCwGkMUAshhAFgPIYgBZDCCLAWQxgCwGkMVALGtEa9yFrIgurfFA2Pg834o1IpbVozU+h6yIGq3xs7DxON+KNXIm7O8FrbGwbXWQb8Ua6Yk7TFoOxfM7dcJbQV7FHSb9UpH4R3+oS+kKMhJ3uE9pK25azbtkjUh6/KpuKZ7uaJ5XlItFuxxKNJubSSuVDUmflWmpLmlobnKQLofV6lp6O3F6jxgWU7cWJDN8VREfxHvomKIK18IfWa/7KT+TKHdl8pQl2/BMkI5ESTqLMTe/x8gfEulkneLX7FFYqfRTuv4imK5fpQM3YqP4+gtFuh5O+EjE07f31D83eS2ckNr7iHpvOJnr17tj8aHMlCvdfckdyb5lEcw9cfgmM1cfuntSANI0zoV4K7TaqKYiIuaevs8iO0Hg8aK7GwUhOSHmYcUgjMlgRbRgJfxCcqBOx+xNYQLZYR4Rk8/8BCz1bFn1XMUsMW8ZvyWcZ9E18Z3431TMIrxaxBXxzQjzGLNVXShuNkwmZK6Klq2CSdYYO0U7doOpjGgpom/5U/XNm/LxqlkYF6SEg0vpVcbHGUzNEXbHtecfr478rZ8PLF7+KISj4XDYDa3MngbxD1A8UBgJBp1lAAAAAElFTkSuQmCC',
-  //   role: 'Self-Learner',
-  //   company: 'Udemy',
-  //   date: 'Jan 2017 - Present',
-  //   desc: 'While I continue to search for job opportunities, I occupy myself by enrolling in courses on the Udemy website, covering subjects such as JavaScript, Vue, React, and Laravel, among others. While Udemy is my primary platform for learning new skills, I also explore other potential learning resources.',
-  //   skills: [
-  //     'JavaScript',
-  //     'VueJs',
-  //     'ReactJs',
-  //     'Flutter & Dart',
-  //     'Laravel',
-  //     'Docker',
-  //     'MongoDB',
-  //     'Android Studio',
-  //   ],
-  //   doc: '/vue-certificate.jpg',
-  // },
+  {
+    id: 0,
+    img: 'https://dbktech.com.my/wp-content/uploads/2024/08/cropped-Logo-DBK-Tech-Transparent.png',
+    role: 'Programmer (Junior Full-stack)',
+    company: 'DBK Tech Sdn. Bhd.',
+    date: 'Nov 2024 - Present',
+    desc: 'At DBK Tech Sdn Bhd, I play a key role in system development, debugging, and feature enhancements for web-based applications. I started by optimizing an HRMS system, addressing existing errors, and improving overall functionality to make it market-ready. Additionally, I developed a Subscription Module, allowing users to choose between monthly and yearly payments, integrating it with Billplz Payment Gateway for seamless transactions. Currently, I am leading the development of a Stockist Management System, which helps track purchases, sales, product batches, and profit distribution using a FIFO-based approach. Built with Yii2 Framework, Bootstrap 4, and MySQL, the system streamlines stockist investments and company-led product sales. With hands-on experience in full-stack development, database design, and system optimization, I continue to contribute to scalable and efficient web solutions.',
+    skills: [
+      'Yii2',
+      'PHP',
+      'JQuery',
+      'Bootstrap4',
+      'MySQL',
+      'PhpMyAdmin',
+      'Billplz',
+      'Yeahhost',
+    ],
+    // doc: '/vue-certificate.jpg',
+  },
   {
     id: 1,
     img: 'https://tm.com.my/themes/custom/tmtheme/img/brand-centre/img/logos/tm-corp/tm-corp-logo.svg',
