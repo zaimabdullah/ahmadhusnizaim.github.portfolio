@@ -499,7 +499,15 @@ export const projects = [
       'My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.',
     image:
       'https://github.com/zaimabdullah/ahmadhusnizaim.github.portfolio/assets/36534973/5e514b2f-7e54-4e53-8bcd-f46fa98dcbb4',
-    tags: ['React Js', 'HTML5', 'CSS3', 'JavaScript', 'Netlify'],
+    tags: [
+      'React Js',
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Netlify',
+      'Netlify Git Integration',
+      'basic CI/CD',
+    ],
     category: 'web app',
     github: 'https://github.com/zaimabdullah/ahmadhusnizaim.github.portfolio',
     webapp: 'https://ahmadhusnizaim.netlify.app/',
