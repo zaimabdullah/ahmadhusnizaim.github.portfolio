@@ -185,10 +185,24 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: '#',
+    role: 'Software Engineer',
+    company: 'Cubixi World (M) Sdn. Bhd.',
+    date: 'Jul 2025 - Present',
+    desc: '#',
+    skills: [
+      'Java',
+      'JSP',
+      'Spring MVC',
+    ],
+    // doc: '/vue-certificate.jpg',
+  },
+  {
+    id: 1,
     img: 'https://dbktech.com.my/wp-content/uploads/2024/08/cropped-Logo-DBK-Tech-Transparent.png',
     role: 'Programmer (Junior Full-stack)',
     company: 'DBK Tech Sdn. Bhd.',
-    date: 'Nov 2024 - Present',
+    date: 'Nov 2024 - Jul 2025',
     desc: 'As a Junior Full-stack Programmer at DBK Tech Sdn. Bhd., I contribute to the development, enhancement, and maintenance of internal web systems. I began by improving an existing Yii2-based HRMS, resolving bugs, optimizing features, and deploying it to production. I implemented a Subscription Module with monthly/yearly options integrated with Billplz for seamless payments. I also designed and developed a custom Stockist Management System to handle purchases, FIFO-based product sales, batch tracking, and profit distribution. In addition to system development, I assist in managing technical operations across e-commerce platforms such as TikTok Shop, Shopee, and Facebook. This includes order processing, ad setup, and performance reporting. My responsibilities span full-stack development, database architecture, and cross-department collaboration to support overall business operations.',
     skills: [
       'Yii2',
@@ -207,7 +221,7 @@ export const experiences = [
     // doc: '/vue-certificate.jpg',
   },
   {
-    id: 1,
+    id: 2,
     img: 'https://tm.com.my/themes/custom/tmtheme/img/brand-centre/img/logos/tm-corp/tm-corp-logo.svg',
     role: 'Junior Consultant (Protege Programme)',
     company: 'Telekom Malaysia Berhad',
@@ -224,7 +238,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: 'https://tm.com.my/themes/custom/tmtheme/img/brand-centre/img/logos/tm-corp/tm-corp-logo.svg',
     role: 'Information Technology Intern',
     company: 'Telekom Malaysia Berhad',
@@ -242,7 +256,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: 'data:image/jpeg;base64,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',
     role: 'Information Technology Intern',
     company: 'Universiti Malaysia Kelantan',
