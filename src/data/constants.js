@@ -185,7 +185,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: 'https://cubixi.com/my-assets/images/logo-icon.png',
+    img: 'https://cubixi.com/my-assets/images/logo-o-invert.png',
     role: 'Software Engineer',
     company: 'Cubixi World (M) Sdn. Bhd.',
     date: 'Jul 2025 - Present',
