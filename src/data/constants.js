@@ -408,7 +408,7 @@ export const projects = [
     date: 'Jul 2025 - Present',
     description:
       'A full-stack platform supporting student purchases, merchant operations, and administrative management. Contributed to the ongoing development and maintenance of the platform, including UI/UX enhancements for the Purchase History page and voucher claim workflow. Integrated and maintained third-party services such as courier APIs and WhatsApp APIs, including the migration from WhatsAuth to Meta WhatsApp API and related API version updates. Also handled PostgreSQL/SQL-based debugging, transaction validation, data correction, and frontend/backend issue resolution. This project is part of my professional work at Cubixi Worldwide.',
-    image: '',
+    image: 'https://media.licdn.com/dms/image/v2/D562DAQHccs95IPqUOA/profile-treasury-image-shrink_480_480/B56aBHVN2DGQAU-/0/1787903140208?e=1788930000&v=beta&t=Ib8KoUkwiXWvny8FmXNsEOys_EF-irqYVNGubAEpwao',
     tags: [
       'Java',
       'Spring MVC',
@@ -429,7 +429,7 @@ export const projects = [
     date: 'Dec 2025 - May 2026',
     description:
       'A cloud-based HACCP management system designed to support food safety compliance and documentation workflows. Contributed to the development of application creation workflows and CRUD modules based on product categories and subcategories. Built 5 out of 16 HACCP document modules end-to-end, covering database design, backend development, and frontend implementation. Implemented responsive interfaces based on wireframes using Bootstrap and jQuery, while integrating document workflows and system components. This project is part of my professional work at Cubixi Worldwide.',
-    image: '',
+    image: 'https://media.licdn.com/dms/image/v2/D562DAQEI0Gknxt2rsg/profile-treasury-image-shrink_480_480/B56aBgd0UcG0AU-/0/1788324825272?e=1788930000&v=beta&t=3DhyiZUbDDXwp1XlgBFj5r3DXsQgruek9za2HUhZ3YU',
     tags: [
       'Java',
       'Spring MVC',
@@ -448,7 +448,7 @@ export const projects = [
     date: 'Oct 2025 - Jan 2026',
     description:
       'An integrated industrial chemical management system supporting chemical information management, submissions, and administrative reporting. Contributed to the migration of legacy data from the previous system by performing data cleansing, mapping, transformation, and validation to align with the new PostgreSQL database structure. Continued the development of administrative reporting modules, implementing data-driven graphs and tables for inventory and chemical register analysis. This project is part of my professional work at Cubixi Worldwide.',
-    image: '',
+    image: 'https://media.licdn.com/dms/image/v2/D562DAQFFvhZ4LOLa2g/profile-treasury-image-shrink_480_480/B56aBHnS5tH0AU-/0/1787907879378?e=1788930000&v=beta&t=nvHduRl-IPqH6JHXdOLJWkOEKqugO_hRg4pWYW2hfBA',
     tags: [
       'Java',
       'Spring MVC',
