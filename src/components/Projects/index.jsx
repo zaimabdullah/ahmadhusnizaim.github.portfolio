@@ -19,9 +19,9 @@ const Projects = ({ openModal, setOpenModal }) => {
   return (
     <Container id='projects'>
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Projects & Work</Title>
         <Desc>
-          Here are some of the projects I have worked on throughout the years.
+          A collection of personal projects I've built and professional systems I've contributed to throughout my career.
         </Desc>
         <ToggleGroup>
           {toggle === 'all' ? (
@@ -41,6 +41,17 @@ const Projects = ({ openModal, setOpenModal }) => {
           ) : (
             <ToggleButton onClick={() => setToggle('web app')}>
               WEB APP
+            </ToggleButton>
+          )}
+          <Divider />
+          <Divider />
+          {toggle === 'work app' ? (
+            <ToggleButton active onClick={() => setToggle('work app')}>
+              WORK APP
+            </ToggleButton>
+          ) : (
+            <ToggleButton onClick={() => setToggle('work app')}>
+              WORK APP
             </ToggleButton>
           )}
           <Divider />
